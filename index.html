@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Astral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#home" class="icon solid fa-home"><span>خانه</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>عملیات</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>سامانه هوشمند سوخت</h1>
+									<p>برای ادامه بر روی فلش کلیک کنید</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span></span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a onclick="document.getElementById('id01').style.display='block'" style="width:auto" class="image fit"><img src="images/pic01.png" alt=""></a>
+											<p>حساب کاربری</p>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a onclick="document.getElementById('id02').style.display='block'" style="width:auto" class="image fit"><img src="images/pic02.png" alt=""></a>
+											<p>شارژ</p>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a onclick="document.getElementById('id03').style.display='block'" style="width:auto" class="image fit"><img src="images/pic03.png" alt=""></a>
+											<p>موجودی</p>
+										</div>
+									</div>
+									<div id="id01" class="modal">
+										<form class="modal-content animate" action="/action_page.php" method="post">
+										  <div class="imgcontainer">
+											<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+											<img src="images/pic01.png" alt="Avatar" class="avatar">
+										  </div>
+									  
+										  <div class="container">
+											<input type="text" placeholder="کد ملی" name="uname" required>
+											<input type="password" placeholder="رمز کاربری" name="psw" required>
+											<button type="submit">ورود</button>
+										  </div>
+									  
+										  <div class="container" style="background-color:#f1f1f1">
+											<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">لغو</button>
+											<span class="psw"><a href="#">فراموشی رمز؟</a></span>
+										  </div>
+										</form>
+									  </div>
+
+									  <div id="id02" class="modal">
+										<form class="modal-content animate" action="/action_page.php" method="post">
+										  <div class="imgcontainer">
+											<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+											<img src="images/pic02.png" alt="Avatar" class="avatar">
+										  </div>
+									  
+										  <div class="container">
+											<input type="text" placeholder="مقدار بنزین به لیتر" name="uname2" required>
+											<button type="submit">شارژ</button>
+										  </div>
+									  
+										  <div class="container" style="background-color:#f1f1f1">
+											<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">لغو</button>
+										  </div>
+										</form>
+									  </div>
+
+									  <div id="id03" class="modal">
+										<form class="modal-content animate" action="/action_page.php" method="post">
+										  <div class="imgcontainer">
+											<span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+											<img src="images/pic03.png" alt="Avatar" class="avatar">
+										  </div>
+									  
+										  <div class="container">
+											<p>قیمت روز بنزین: 3000 تومان</p>
+											<p>موجودی شما به بنزین - لیتر</p>
+											<p>0</p>
+											<p>موجودی شما به بنزین - تومان</p>
+											<p>0</p>
+										  </div>
+									  
+										  <div class="container" style="background-color:#f1f1f1">
+											<button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">بستن</button>
+										  </div>
+										</form>
+									  </div>
+								</section>
+							</article>
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>ساخته شده با 💗 محمدرضا مجیدپور و محسن رحمانی&copy;</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
